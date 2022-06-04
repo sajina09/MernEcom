@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema;
 
 const bookSchema = new Schema({
-    name : {
+    bookName : {
         type: String,
         required : true,
     },
@@ -21,7 +21,7 @@ const bookSchema = new Schema({
     },
     available : {
         type: Boolean,
-        required : true,
+        // required : true,
     },
 });
 
